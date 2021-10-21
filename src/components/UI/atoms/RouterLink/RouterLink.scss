@@ -1,0 +1,19 @@
+.link {
+  // text-transform: uppercase;
+  text-decoration: none;
+  list-style: none;
+  padding: 35px 5px 30px 5px;
+  margin-right: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  color: rgb(53, 53, 53);
+  border-bottom: 3px solid transparent;
+  transition-duration: 0.4s;
+}
+
+// .link:hover,
+// :active {
+//   font-weight: bolder;
+//   color: #204079;
+//   border-bottom: 3px solid #204079;
+// }

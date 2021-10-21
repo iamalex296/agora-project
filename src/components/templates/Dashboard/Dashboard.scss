@@ -1,0 +1,52 @@
+.dashboard-container {
+  display: grid;
+  grid-template-columns: 65% 35%;
+  // grid-row-gap: 20px;
+  grid-column-gap: 20px;
+
+  .dashboard-container__statistic-information {
+    background-color: #f3f3f6;
+    padding: 40px 40px 20px 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 20px;
+    height: 100vh;
+
+    div {
+      border-radius: 10px;
+      padding: 0px 20px 0px 0px;
+    }
+
+    .dashboard-container__statistic-information_amounts {
+      display: grid;
+      grid-template-columns: 50% 50%;
+      grid-gap: 20px;
+    }
+
+    .dashboard-container__statistic-information_summary {
+      display: flex;
+      flex-wrap: wrap;
+      // flex-direction: row-reverse;
+      justify-self: center;
+      align-items: center;
+    }
+
+    .dashboard-container__statistic-information__investments {
+      grid-column: 1 / 3;
+      grid-row: 3;
+    }
+  }
+
+  .dashboard-container__offering-updates {
+    background-color: #f3f3f6;
+    padding: 40px 20px 100px 20px;
+    display: grid;
+    grid-row-gap: 20px;
+
+    div {
+      background-color: white;
+      border-radius: 10px;
+      padding: 10px;
+    }
+  }
+}
